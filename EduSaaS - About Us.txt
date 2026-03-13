@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduSaaS - About Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .about-hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #4a90e2, #50c9c3);
+      color: #fff;
+    }
+    .about-hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .about-hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .mission {
+      padding: 3rem 2rem;
+      background: #fff;
+      text-align: center;
+    }
+    .mission h2 {
+      color: #4a90e2;
+      margin-bottom: 1rem;
+    }
+    .mission p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .team {
+      padding: 3rem 2rem;
+      background: #f9f9f9;
+    }
+    .team h2 {
+      text-align: center;
+      color: #4a90e2;
+      margin-bottom: 2rem;
+    }
+    .team-members {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .member {
+      width: 250px;
+      background: #fff;
+      padding: 1.5rem;
+      margin: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .member h3 {
+      margin: 0.5rem 0;
+      color: #333;
+    }
+    .member p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .cta {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: #fff;
+    }
+    .cta h2 {
+      margin-bottom: 1rem;
+      color: #4a90e2;
+    }
+    .cta .btn {
+      padding: 0.75rem 1.5rem;
+      background: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .cta .btn:hover {
+      background: #357ab8;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EduSaaS</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
+
+  <section class="about-hero">
+    <h2>About EduSaaS</h2>
+    <p>EduSaaS is a modern educational platform designed to empower students, teachers, and institutions with smart tools for learning, collaboration, and growth.</p>
+  </section>
+
+  <section class="mission">
+    <h2>Our Mission</h2>
+    <p>We believe education should be accessible, engaging, and personalized. Our mission is to bridge the gap between technology and learning, providing innovative solutions that help learners achieve their goals and educators deliver impactful experiences.</p>
+  </section>
+
+  <section class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <h3>Sarah Khan</h3>
+        <p>Founder & CEO</p>
+      </div>
+      <div class="member">
+        <h3>Ali Raza</h3>
+        <p>Head of Product</p>
+      </div>
+      <div class="member">
+        <h3>Ayesha Malik</h3>
+        <p>Lead Developer</p>
+      </div>
+      <div class="member">
+        <h3>John Smith</h3>
+        <p>Education Specialist</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Join Us in Transforming Education</h2>
+    <button class="btn">Get Started</button>
+  </section>
+
+  <footer>
+    © 2026 EduSaaS. All rights reserved.
+  </footer>
+</body>
+</html>

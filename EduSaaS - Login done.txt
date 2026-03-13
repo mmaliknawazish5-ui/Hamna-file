@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>EduSaaS - Login</title>
+  <style>
+    body {
+      font-family:  Arial, Georgia ;
+      background: linear-gradient( 135deg, rgb(79, 70, 229), rgb(6, 182, 212));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+  
+  
+ 
+  
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Welcome to EduSaaS</h2>
+<style>
+  .login-container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      width: 380px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 24px;
+      color: black;
+    }
+</style>
+    <form>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="example@edusaas.com" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="********" required>
+      </div>
+<style>
+   input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+  
+  .form-group {
+      margin-bottom: 16px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color:rgb(68, 68, 68);
+      <div class="options">
+        <label><input type="checkbox"> Remember Me</label>
+        <a href="#">Forgot Password?</a>
+      </div>
+  .options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top:8px;
+      font-size: 15px;
+    }
+</style>
+   
+      <button type="submit" class="btn">Login</button>
+    </form>
+<style>
+  .btn {
+      width: 100%;
+      padding: 12px;
+      background: rgb(74, 144, 226);
+      border: none;
+      border-radius: 6px;
+      color:rgb(68, 68, 68);
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-top: 16px;
+    }
+    .btn:hover {
+      background:rgb(53, 122, 184);
+    }
+</style>
+    <div class="social-login">
+      <p>Or login with:</p>
+      <button class="social-btn">Google</button>
+      <button class="social-btn">Microsoft</button>
+    </div>
+<style>
+  .social-login {
+      margin-top: 24px;
+      text-align: center;
+    }
+    .social-btn {
+      display: inline-block;
+      margin: 8px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: 1px solid rgb(204, 204, 204);
+      cursor: pointer;
+      font-size: 15px;
+      background:white;
+    }
+    .social-btn:hover {
+      background: rgb(240, 240, 240);
+    }
+</style>
+    <div class="options" style="justify-content:center; margin-top:1rem;">
+      <p>Don’t have an account? <a href="#">Register here</a></p>
+    </div>
+<style>
+ .options a {
+      color:rgb(74, 144, 226);
+      text-decoration: none;
+    }
+</style>
+  
+  </div>
+</body>
+</html>

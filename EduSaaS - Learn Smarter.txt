@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduSaaS - Learn Smarter</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #4a90e2, #50c9c3);
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .hero .btn {
+      padding: 0.75rem 1.5rem;
+      background: #fff;
+      color: #4a90e2;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .hero .btn:hover {
+      background: #f0f0f0;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 3rem 2rem;
+      background: #fff;
+    }
+    .feature {
+      width: 30%;
+      text-align: center;
+    }
+    .feature h3 {
+      color: #4a90e2;
+      margin-bottom: 1rem;
+    }
+    .cta {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: #f4f6f9;
+    }
+    .cta .btn {
+      padding: 0.75rem 1.5rem;
+      background: #4a90e2;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .cta .btn:hover {
+      background: #357ab8;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EduSaaS</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Login</a>
+      <a href="#">Register</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Learn Smarter, Not Harder</h2>
+    <p>EduSaaS helps students and educators connect, collaborate, and grow with powerful online tools.</p>
+    <button class="btn">Get Started</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>📚 Courses</h3>
+      <p>Access a wide range of interactive courses tailored to your learning needs.</p>
+    </div>
+    <div class="feature">
+      <h3>👩‍🏫 Teachers</h3>
+      <p>Connect with expert educators and mentors to guide your journey.</p>
+    </div>
+    <div class="feature">
+      <h3>📊 Analytics</h3>
+      <p>Track progress with smart dashboards and personalized insights.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to start your journey?</h2>
+    <button class="btn">Sign Up Now</button>
+  </section>
+
+  <footer>
+    © 2026 EduSaaS. All rights reserved.
+  </footer>
+</body>
+</html>
